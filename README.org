@@ -1,0 +1,48 @@
+* firmware
+- UEFI/GPT only
+
+* debian graphical installation
+- setup location
+- hostname: deb
+- no root pw
+- LVM encrypted
+- only install: standard system utilities
+
+* installs
+- gnome-session
+- gnome-tweaks
+- firefox
+- privoxy, tor
+- nautilus, gnome-disk-utility
+- seahorse
+- emacs
+- git
+- xdg-utils, mpv, gthumb
+- adb, fastboot
+
+* setups
+
+- gnome autologin
+
+** grub
+edit =/etc/default/grub= to have timeout of 1
+- ~sudo update-grub~
+
+** sources firmware
+edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
+- install: firmware-iwlwifi
+
+** firefox about:config
+- set =toolkit.cosmeticAnimations.enabled= to false
+- set =media.peerconnection.enabled= to false
+- set =webgl.disabled= to true
+
+** set privoxy-tor
+edit =/etc/privoxy/config= to have =forward-socks5t=
+
+** set gpg-git
+- ~git config --global user.signinKey <key>~
+- ~git config --global user.name "Aa Bb"~
+- ~git config --global user.email <email>~
+- ~git config --global commit.gpgsign true~
+
