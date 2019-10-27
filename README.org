@@ -46,3 +46,5 @@ edit =/etc/privoxy/config= to have =forward-socks5t=
 - ~git config --global user.email <email>~
 - ~git config --global commit.gpgsign true~
 
+- ~git config --global pull.rebase true~
+
