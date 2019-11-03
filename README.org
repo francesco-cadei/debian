@@ -15,7 +15,7 @@
 - privoxy, tor
 - nautilus, gnome-disk-utility
 - seahorse
-- emacs
+- emacs, aspell-it
 - git
 - xdg-utils, mpv, gthumb
 - adb, fastboot
