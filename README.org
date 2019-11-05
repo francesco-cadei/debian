@@ -17,7 +17,7 @@
 - seahorse
 - emacs, aspell-it
 - git
-- xdg-utils, mpv, gthumb
+- xdg-utils, gthumb, vlc
 - adb, fastboot
 
 * setups
