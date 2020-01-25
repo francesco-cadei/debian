@@ -6,7 +6,7 @@
 - hostname: deb
 - no root pw
 - LVM encrypted
-- only install: standard system utilities
+- only install: standard system utilities, print server
 
 * installs
 - gnome-session
@@ -15,10 +15,13 @@
 - privoxy, tor
 - nautilus, gnome-disk-utility
 - seahorse
+- cups
 - emacs, aspell-it
 - git
 - xdg-utils, gthumb, vlc
 - adb, fastboot
+- transmission, wireshark
+- nodejs
 
 * setups
 
