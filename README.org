@@ -15,13 +15,13 @@
 - privoxy, tor
 - nautilus, gnome-disk-utility
 - seahorse
-- cups
 - emacs, aspell-it
 - git
 - xdg-utils, gthumb, vlc
-- adb, fastboot
 - transmission, wireshark
+- adb, fastboot
 - nodejs
+- cups
 
 * setups
 
@@ -48,6 +48,5 @@ edit =/etc/privoxy/config= to have =forward-socks5t=
 - ~git config --global user.name "Aa Bb"~
 - ~git config --global user.email <email>~
 - ~git config --global commit.gpgsign true~
-
 - ~git config --global pull.rebase true~
 
