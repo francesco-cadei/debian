@@ -20,8 +20,7 @@
 - xdg-utils, gthumb, vlc
 - transmission, wireshark
 - adb, fastboot
-- nodejs
-- cups
+- nodejs, ghc
 
 * setups
 
