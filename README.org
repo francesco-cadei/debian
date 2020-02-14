@@ -21,6 +21,7 @@
 - transmission, wireshark
 - adb, fastboot
 - nodejs, ghc
+- texlive-full
 
 * setups
 
