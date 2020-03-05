@@ -20,8 +20,9 @@
 - xdg-utils, gthumb, vlc
 - transmission, wireshark
 - adb, fastboot
-- nodejs, ghc
 - texlive-full
+- nodejs, ghc
+- clojure, leiningen
 
 * setups
 
