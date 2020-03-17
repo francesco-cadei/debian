@@ -1,3 +1,5 @@
+
+
 * firmware
 - UEFI/GPT only
 
@@ -20,12 +22,13 @@
 - xdg-utils, gthumb, vlc
 - transmission, wireshark
 - adb, fastboot
+
+* languages
 - texlive-full
 - nodejs, ghc
 - clojure, leiningen
 
 * setups
-
 - gnome autologin
 
 ** grub
@@ -50,4 +53,6 @@ edit =/etc/privoxy/config= to have =forward-socks5t=
 - ~git config --global user.email <email>~
 - ~git config --global commit.gpgsign true~
 - ~git config --global pull.rebase true~
+
+
 
