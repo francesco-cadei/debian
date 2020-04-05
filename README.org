@@ -25,10 +25,9 @@
 
 * languages
 - texlive-full
-- ghc
 - clojure, leiningen
+- ghc
 - nodejs
-  - ~sudo npm i -g tern~
 
 * setups
 - gnome autologin
