@@ -27,7 +27,7 @@
 - texlive-full
 - clojure, leiningen
 - ghc
-- nodejs
+- nodejs: ~sudo npm i -g tern~
 
 * setups
 - gnome autologin
@@ -53,7 +53,12 @@ edit =/etc/privoxy/config= to have =forward-socks5t=
 - ~git config --global user.name "Aa Bb"~
 - ~git config --global user.email <email>~
 - ~git config --global commit.gpgsign true~
+
 - ~git config --global pull.rebase true~
+
+** .gitignore global
+- ~git config --global core.excludesfile '~/.gitignore_global'~
+add =.tern-port=
 
 
 
