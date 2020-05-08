@@ -24,9 +24,6 @@
 - adb, fastboot
 
 * languages
-- texlive-full
-- clojure, leiningen
-- ghc
 - nodejs: ~sudo npm i -g tern~
 
 * setups
