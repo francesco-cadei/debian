@@ -22,6 +22,7 @@
 - xdg-utils, gthumb, vlc
 - transmission, wireshark
 - adb, fastboot
+- net-tools
 
 * languages
 - nodejs: ~sudo npm i -g tern~
