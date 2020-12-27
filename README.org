@@ -11,21 +11,38 @@
 - only install: standard system utilities, print server
 
 * installs
-- gnome-session
-- gnome-tweaks
-- firefox
-- privoxy, tor
-- nautilus, gnome-disk-utility
-- seahorse
+- gnome-session, gnome-tweaks
+- firefox, privoxy, tor
+- nautilus, gnome-disk-utility, seahorse
 - emacs, aspell-it
 - git
-- xdg-utils, gthumb, vlc
+- vlc, gthumb, xdg-utils
 - transmission, wireshark
 - adb, fastboot
-- net-tools
 
 * languages
-- nodejs: ~sudo npm i -g tern~
+
+** c-cpp
+- cmake, clang
+
+** web
+- nodejs
+
+*** npm global
+- tern
+
+add =~/.tern-config=
+#+BEGIN_EXAMPLE
+{
+    "libs": [
+        "browser"
+    ],"plugins": {
+        "node": {}
+    }
+}
+#+END_EXAMPLE
+
+** haskell
 
 * setups
 - gnome autologin
@@ -44,19 +61,23 @@ edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
-- http/s 127.0.0.1 8118
-- socks 127.0.0.1 9050
+- http/s: 127.0.0.1 8118
+- socks: 127.0.0.1 9050
 
 ** git-gpg
-- ~git config --global user.signinKey <key>~
-- ~git config --global user.name "Aa Bb"~
-- ~git config --global user.email <email>~
-- ~git config --global commit.gpgsign true~
+#+BEGIN_EXAMPLE
+git config --global user.signinKey <key>
+git config --global user.name "Aa Bb"
+git config --global user.email <email>
+git config --global commit.gpgsign true
 
-- ~git config --global pull.rebase true~
+git config --global pull.rebase true
+#+END_EXAMPLE
 
 ** .gitignore global
-- ~git config --global core.excludesfile '~/.gitignore_global'~
+#+BEGIN_EXAMPLE
+git config --global core.excludesfile '~/.gitignore_global'
+#+END_EXAMPLE
 add =.tern-port=
 
 
