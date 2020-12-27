@@ -31,7 +31,7 @@
 *** npm global
 - tern
 
-add =~/.tern-config=
+add =~/.tern-config=:
 #+BEGIN_EXAMPLE
 {
     "libs": [
@@ -78,7 +78,7 @@ git config --global pull.rebase true
 #+BEGIN_EXAMPLE
 git config --global core.excludesfile '~/.gitignore_global'
 #+END_EXAMPLE
-add =.tern-port=
+create it and add =.tern-port=
 
 
 
