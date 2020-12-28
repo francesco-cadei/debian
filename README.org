@@ -56,8 +56,8 @@ edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
 - install: firmware-iwlwifi
 
 ** firefox about:config
-- set =toolkit.cosmeticAnimations.enabled= to false
 - set =media.peerconnection.enabled= to false
+- set =media.navigator.enabled= to false
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
