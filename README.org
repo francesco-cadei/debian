@@ -16,7 +16,11 @@
 - nautilus, gnome-disk-utility, seahorse
 - emacs, git, aspell-it, xdg-utils
 - gthumb, vlc, transmission
+- snapd
 - adb, fastboot
+
+** snap
+- foliate
 
 * setups
 - gnome autologin
@@ -63,9 +67,14 @@ create file and add =.tern-port=
 - cmake, clang
 
 ** web
-- nodejs
+#+BEGIN_EXAMPLE
+sudo snap install node --classic
 
-*** npm global
+sudo chown -R $USER /usr/local/lib/node_modules
+sudo chown -R $USER /usr/local/bin
+#+END_EXAMPLE
+
+*** npm -g
 - tern
 
 add =~/.tern-config=:
