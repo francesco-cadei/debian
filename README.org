@@ -16,6 +16,7 @@
 - nautilus, gnome-disk-utility, seahorse
 - emacs, git, aspell-it, xdg-utils
 - gthumb, vlc, transmission
+- tlp, acpi-call-dkms (thinkpad only)
 - snapd
 - adb, fastboot
 
@@ -35,6 +36,8 @@ edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
 
 ** firefox about:config
 - set =privacy.resistFingerprinting= to false
+- set =network.security.esni.enabled= to true
+- set =network.dns.disableIPv6= to true
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
@@ -60,6 +63,19 @@ git config --global pull.rebase true
 git config --global core.excludesfile '~/.gitignore_global'
 #+END_EXAMPLE
 create file and add =.tern-port=
+
+*** snap
+#+BEGIN_EXAMPLE
+sudo snap install core
+#+END_EXAMPLE
+
+*** tlp
+#+BEGIN_EXAMPLE
+sudo tlp start
+
+sudo tlp stat
+#+END_EXAMPLE
+
 
 * languages
 

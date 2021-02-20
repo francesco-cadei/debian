@@ -6,8 +6,3 @@
 - set =media.peerconnection.enabled= to false
 - set =media.navigator.enabled= to false
 
-** webgl
-- set =webgl.disabled= to true
-
-* ublock-origin
-- disable javascript
