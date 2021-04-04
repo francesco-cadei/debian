@@ -1,0 +1,65 @@
+
+
+* firmware
+- UEFI/GPT only
+
+* debian graphical installation
+- setup location
+- hostname: deb
+- no root pw
+- LVM encrypted
+- only install: standard system utilities, print server
+
+* installs
+- gnome-session, gnome-tweaks
+- firefox-esr, privoxy, tor
+- nautilus, gnome-disk-utility, seahorse
+- emacs, git, aspell-it, xdg-utils
+- gthumb, vlc, transmission
+- tlp, acpi-call-dkms (thinkpad only)
+
+* setups
+- gnome autologin
+
+** grub
+edit =/etc/default/grub= to have timeout of 1
+- ~sudo update-grub~
+
+** sources firmware
+edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
+- install: firmware-iwlwifi
+
+** firefox about:config
+- set =privacy.resistFingerprinting= to false
+- set =network.security.esni.enabled= to true
+- set =network.dns.disableIPv6= to true
+
+*** webrtc (advanced privacy)
+- set =media.peerconnection.enabled= to false
+- set =media.navigator.enabled= to false
+
+** privoxy-tor
+edit =/etc/privoxy/config= to have =forward-socks5t=
+- http/s: 127.0.0.1 8118
+- socks: 127.0.0.1 9050
+
+** git
+#+BEGIN_EXAMPLE
+git config --global user.signinKey <key>
+git config --global user.name <name>: use "" for the space
+git config --global user.email <email>
+git config --global commit.gpgsign true
+#+END_EXAMPLE
+
+** tlp
+#+BEGIN_EXAMPLE
+sudo tlp start
+sudo tlp stat
+#+END_EXAMPLE
+
+* languages
+
+** haskell
+
+
+
