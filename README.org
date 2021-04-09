@@ -34,6 +34,7 @@ edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
 - set =network.security.esni.enabled= to true
 - set =network.dns.disableIPv6= to true
 - set =pdfjs.defaultZoomValue= to =page-fit=
+- set =extensions.screenshots.disabled= to true
 
 *** webrtc (advanced privacy)
 - set =media.peerconnection.enabled= to false
