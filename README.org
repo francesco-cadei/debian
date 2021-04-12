@@ -14,7 +14,7 @@
 - gnome-session, gnome-tweaks
 - firefox-esr, privoxy, tor
 - nautilus, gnome-disk-utility, seahorse
-- emacs, git, aspell-it, xdg-utils
+- emacs, git, xdg-utils, aspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
 
@@ -46,18 +46,18 @@ edit =/etc/privoxy/config= to have =forward-socks5t=
 - socks: 127.0.0.1 9050
 
 ** git
-#+BEGIN_EXAMPLE
+#+begin_example
 git config --global user.signinKey <key>
 git config --global user.name <name>: use "" for the space
 git config --global user.email <email>
 git config --global commit.gpgsign true
-#+END_EXAMPLE
+#+end_example
 
 ** tlp
-#+BEGIN_EXAMPLE
+#+begin_example
 sudo tlp start
 sudo tlp stat
-#+END_EXAMPLE
+#+end_example
 
 * languages
 
