@@ -26,7 +26,43 @@ edit =/etc/default/grub= to have timeout of 1
 - ~sudo update-grub~
 
 ** sources firmware
-edit =/etc/apt/sources.list= and add =contrib non-free= to end of each line
+- remove =/etc/apt/sources.list=
+- add =stable.pref= in =/etc/apt/preferences.d/=
+#+begin_example
+# 500 <= P < 990: causes a version to be installed unless there is a
+# version available belonging to the target release or the installed
+# version is more recent
+
+Package: *
+Pin: release a=stable
+Pin-Priority: 900
+#+end_example
+- add =testing.pref= in =/etc/apt/preferences.d/=
+#+begin_example
+# 100 <= P < 500: causes a version to be installed unless there is a
+# version available belonging to some other distribution or the installed
+# version is more recent
+
+Package: *
+Pin: release a=testing
+Pin-Priority: 400
+#+end_example
+- add =stable.list= in =/etc/apt/sources.list.d/=
+#+begin_example
+deb http://deb.debian.org/debian/ stable main contrib non-free
+deb-src http://deb.debian.org/debian/ stable main contrib non-free
+
+deb http://security.debian.org/debian-security stable/updates main contrib non-free
+deb-src http://security.debian.org/debian-security stable/updates main contrib non-free
+
+deb http://deb.debian.org/debian/ stable-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
+#+end_example
+- add =testing.list= in =/etc/apt/sources.list.d/=
+#+begin_example
+deb http://deb.debian.org/debian/ testing main contrib non-free
+deb-src http://deb.debian.org/debian/ testing main contrib non-free
+#+end_example
 - install: firmware-iwlwifi
 
 ** firefox about:config
