@@ -75,7 +75,6 @@ deb-src http://deb.debian.org/debian/ testing main contrib non-free
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
-- / 127.0.0.1:9050
 
 ** git
 #+begin_example
@@ -93,5 +92,17 @@ sudo tlp stat
 
 * languages
 
+** c-c++
+- cmake, clang
+
+** java
+- openjdk-17-jdk
+
+** javascript
+- nodejs, npm
+
 ** haskell
 - ghc
+
+** latex
+- texlive-full
