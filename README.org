@@ -101,8 +101,11 @@ sudo tlp stat
 ** javascript
 - nodejs, npm
 
+** clojure
+- clojure, leiningen
+
 ** haskell
 - ghc
 
 ** latex
-- texlive-full
+- texlive-full, auctex
