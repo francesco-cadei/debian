@@ -101,9 +101,6 @@ sudo tlp stat
 ** javascript
 - nodejs, npm
 
-** clojure
-- clojure, leiningen
-
 ** haskell
 - ghc
 
