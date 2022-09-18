@@ -17,6 +17,7 @@
 - emacs, git, xdg-utils, aspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
+- libreoffice-gnome, curl
 
 * setups
 - gnome autologin
@@ -25,7 +26,7 @@
 edit =/etc/default/grub= to have timeout of 1
 - ~sudo update-grub~
 
-** sources firmware
+** sources
 - remove =/etc/apt/sources.list=
 - add =stable.pref= in =/etc/apt/preferences.d/=
 #+begin_example
@@ -62,6 +63,11 @@ deb-src http://deb.debian.org/debian/ testing main contrib non-free
 #+end_example
 
 - install: firmware-iwlwifi
+
+** nix
+#+begin_example
+sh <(curl -L https://nixos.org/nix/install) --no-daemon
+#+end_example
 
 ** firefox about:config
 - set =privacy.resistFingerprinting= to false
