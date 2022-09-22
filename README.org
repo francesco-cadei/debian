@@ -17,7 +17,8 @@
 - emacs, git, xdg-utils, aspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
-- libreoffice-gnome, curl
+- libreoffice, libreoffice-gnome, hunspell, hunspell-it
+- curl
 
 * setups
 - gnome autologin
