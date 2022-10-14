@@ -14,11 +14,13 @@
 - gnome-session, gnome-tweaks
 - firefox-esr, privoxy, tor
 - nautilus, gnome-disk-utility, seahorse
-- emacs, git, xdg-utils, aspell-it
+- emacs, git, xdg-utils, hunspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
-- libreoffice, libreoffice-gnome, hunspell, hunspell-it
-- curl
+- libreoffice-gnome, curl
+
+* one-shot
+- blueman
 
 * setups
 - gnome autologin
@@ -28,28 +30,7 @@ edit =/etc/default/grub= to have timeout of 1
 - ~sudo update-grub~
 
 ** sources
-- remove =/etc/apt/sources.list=
-- add =stable.pref= in =/etc/apt/preferences.d/=
-#+begin_example
-# 500 <= P < 990: causes a version to be installed unless there is a
-# version available belonging to the target release or the installed
-# version is more recent
-
-Package: *
-Pin: release a=stable
-Pin-Priority: 900
-#+end_example
-- add =testing.pref= in =/etc/apt/preferences.d/=
-#+begin_example
-# 100 <= P < 500: causes a version to be installed unless there is a
-# version available belonging to some other distribution or the installed
-# version is more recent
-
-Package: *
-Pin: release a=testing
-Pin-Priority: 400
-#+end_example
-- add =stable.list= in =/etc/apt/sources.list.d/=
+- edit =/etc/apt/sources.list=
 #+begin_example
 deb http://deb.debian.org/debian/ stable main contrib non-free
 deb-src http://deb.debian.org/debian/ stable main contrib non-free
@@ -57,12 +38,6 @@ deb-src http://deb.debian.org/debian/ stable main contrib non-free
 deb http://deb.debian.org/debian/ stable-updates main contrib non-free
 deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
 #+end_example
-- add =testing.list= in =/etc/apt/sources.list.d/=
-#+begin_example
-deb http://deb.debian.org/debian/ testing main contrib non-free
-deb-src http://deb.debian.org/debian/ testing main contrib non-free
-#+end_example
-
 - install: firmware-iwlwifi
 
 ** nix
@@ -73,7 +48,6 @@ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 ** firefox about:config
 - set =privacy.resistFingerprinting= to false
 - set =network.security.esni.enabled= to true
-- set =network.dns.disableIPv6= to true
 - set =extensions.screenshots.disabled= to true
 
 *** webrtc (advanced privacy)
