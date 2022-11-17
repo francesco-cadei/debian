@@ -45,6 +45,8 @@ deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 #+end_example
 
+- rclone
+
 ** firefox about:config
 - set =privacy.resistFingerprinting= to false
 - set =network.security.esni.enabled= to true
