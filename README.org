@@ -17,7 +17,8 @@
 - emacs, git, xdg-utils, hunspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
-- libreoffice-gnome, curl
+- curl
+- libreoffice, libreoffice-gnome
 
 * one-shot
 - blueman
@@ -44,7 +45,6 @@ deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free
 #+begin_example
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 #+end_example
-
 - rclone
 
 ** firefox about:config
