@@ -14,7 +14,7 @@
 - gnome-session, gnome-tweaks
 - firefox-esr, privoxy, tor
 - nautilus, gnome-disk-utility, seahorse
-- emacs, git, xdg-utils, hunspell-it
+- emacs, git, xdg-utils, hunspell, hunspell-it
 - gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
 - curl
