@@ -79,7 +79,7 @@ sudo tlp stat
 - cmake, clang
 
 ** java
-- openjdk-17-jdk, maven
+- openjdk-17-jdk
 
 ** javascript
 - nodejs, npm
