@@ -11,13 +11,13 @@
 - only install: standard system utilities, print server
 
 * installs
-- gnome-session, gnome-tweaks
+- gnome-session, gnome-shell-extension-prefs
 - firefox-esr, privoxy, tor
 - nautilus, gnome-disk-utility, seahorse
 - emacs, git, xdg-utils, hunspell, hunspell-it
-- gthumb, vlc, transmission
 - tlp, acpi-call-dkms (thinkpad only)
-- curl
+- gnome-shell-pomodoro
+- gthumb, vlc, transmission, curl
 - libreoffice, libreoffice-gnome
 
 * one-shot
@@ -27,8 +27,7 @@
 - gnome autologin
 
 ** grub
-edit =/etc/default/grub= to have timeout of 1
-uncomment =GRUB_TERMINAL=console=
+edit =/etc/default/grub= to have timeout of 1 and uncomment =GRUB_TERMINAL=console=
 - ~sudo update-grub~
 
 ** sources
