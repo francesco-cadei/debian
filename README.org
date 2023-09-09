@@ -16,9 +16,9 @@
 - nautilus, gnome-disk-utility, seahorse
 - emacs, git, xdg-utils, hunspell, hunspell-it
 - tlp, acpi-call-dkms (thinkpad only)
-- gnome-shell-pomodoro
-- gthumb, vlc, transmission, curl
+- foliate, gthumb, vlc, transmission
 - libreoffice, libreoffice-gnome
+- curl
 
 * one-shot
 - blueman
