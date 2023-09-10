@@ -12,13 +12,12 @@
 
 * installs
 - gnome-session, gnome-shell-extension-prefs
+- seahorse, gnome-disk-utility
+- nautilus, gthumb, mpv
 - firefox-esr, privoxy, tor
-- nautilus, gnome-disk-utility, seahorse
-- emacs, git, xdg-utils, hunspell, hunspell-it
-- tlp, acpi-call-dkms (thinkpad only)
-- foliate, gthumb, vlc, transmission
-- libreoffice, libreoffice-gnome
-- curl
+- emacs, git, aspell-it, xdg-utils
+- foliate, transmission
+- tlp, acpi-call-dkms, curl
 
 * one-shot
 - blueman
