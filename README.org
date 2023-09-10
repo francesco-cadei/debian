@@ -1,3 +1,4 @@
+-*- mode: org-mode; ispell-local-dictionary: italian -*-
 
 
 * firmware
@@ -15,7 +16,7 @@
 - seahorse, gnome-disk-utility
 - nautilus, gthumb, mpv
 - firefox-esr, privoxy, tor
-- emacs, git, aspell-it, xdg-utils
+- emacs, git, aspell-it, aspell-en, xdg-utils
 - foliate, transmission
 - tlp, acpi-call-dkms, curl
 
