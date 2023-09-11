@@ -1,4 +1,3 @@
--*- mode: org-mode; ispell-local-dictionary: italian -*-
 
 
 * firmware
