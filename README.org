@@ -13,7 +13,7 @@
 * installs
 - gnome-session, gnome-shell-extension-prefs
 - seahorse, gnome-disk-utility
-- nautilus, gthumb, mpv
+- nautilus, gthumb, mpv, evince
 - firefox-esr, privoxy, tor
 - emacs, git, aspell-it, aspell-en, xdg-utils
 - foliate, transmission
