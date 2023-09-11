@@ -12,12 +12,12 @@
 
 * installs
 - gnome-session, gnome-shell-extension-prefs
-- seahorse, gnome-disk-utility
+- seahorse, fingerprint, gnome-disk-utility
 - nautilus, gthumb, mpv, evince
 - firefox-esr, privoxy, tor
 - emacs, git, aspell-it, aspell-en, xdg-utils
-- foliate, transmission
-- tlp, acpi-call-dkms, curl
+- foliate, transmission, curl
+- tlp, acpi-call-dkms
 
 * one-shot
 - blueman
