@@ -42,6 +42,11 @@ deb-src http://deb.debian.org/debian/ stable-updates main contrib non-free non-f
 ** bluetooth
 edit =/etc/bluetooth/main.conf= to have =AutoEnable=false=
 
+** syncthing
+#+begin_example
+systemctl --user enable syncthing.service
+#+end_example
+
 ** firefox about:config
 - set =privacy.resistFingerprinting= to false
 - set =network.security.esni.enabled= to true
@@ -71,7 +76,7 @@ sudo tlp-stat
 * languages
 
 ** tex
-- texlive-latex-extra
+- texlive-full
 
 ** c
 - cmake, clang
