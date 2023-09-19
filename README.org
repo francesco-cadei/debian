@@ -1,5 +1,3 @@
-
-
 * firmware
 - UEFI/GPT only
 
@@ -95,4 +93,3 @@ sudo tlp-stat
 
 ** hs
 - ghc
-
