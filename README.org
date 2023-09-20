@@ -10,7 +10,7 @@
 * installs
 - gnome-session, gnome-shell-extension-prefs
 - seahorse, gnome-disk-utility
-- nautilus, eog, mpv, syncthing
+- nautilus, eog, mpv, syncthing, gnome-shell-pomodoro
 - firefox-esr, privoxy, tor
 - emacs, git, hunspell-en-us, hunspell-it, xdg-utils
 - transmission, foliate
