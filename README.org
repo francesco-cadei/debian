@@ -10,15 +10,14 @@
 * installs
 - gnome-session, gnome-shell-extension-prefs
 - seahorse, gnome-disk-utility
-- nautilus, eog, mpv, syncthing, gnome-shell-pomodoro
+- nautilus, eog, mpv, syncthing
 - firefox-esr, privoxy, tor
 - emacs, git, hunspell-en-us, hunspell-it, xdg-utils
 - transmission, foliate
 - acpi-call-dkms, thinkfan, tp-smapi-dkms
-- tlp, tlp-rdw
+- tlp, tlp-rdw, powertop
 
 * setups
-- gnome autologin
 
 ** grub
 edit =/etc/default/grub= to have =GRUB_TIMEOUT=1= and =GRUB_TERMINAL=console=
@@ -75,6 +74,11 @@ git config --global commit.gpgsign true
 #+begin_example
 sudo tlp start
 sudo tlp-stat
+#+end_example
+
+** powertop
+#+begin_example
+sudo systemctl enable powertop.service
 #+end_example
 
 * languages
