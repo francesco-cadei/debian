@@ -8,7 +8,7 @@
 - install only: standard system utilities, print server
 
 * installs
-- gnome-session, gnome-shell-extension-prefs
+- gnome-session, gnome-shell-extension-prefs, gnome-tweaks
 - seahorse, gnome-disk-utility
 - nautilus, eog, mpv, syncthing
 - firefox-esr, privoxy, tor
@@ -18,6 +18,7 @@
 - tlp, tlp-rdw, powertop
 
 * setups
+- gnome-autologin
 
 ** grub
 edit =/etc/default/grub= to have =GRUB_TIMEOUT=1= and =GRUB_TERMINAL=console=
