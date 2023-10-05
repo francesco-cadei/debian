@@ -1,0 +1,16 @@
+* add-ons
+- Bitwarden
+- CanvasBlocker
+- ClearURLs
+- CoockieAutoDelete
+- Decentraleyes
+- DF YouTube
+- I still don't care about cookies
+- Return YouTube Dislike
+- Simple Translate
+- uBlock Origin
+- Video Speed Controller
+
+** Violentmonkey
+- https://openuserjs.org/scripts/thomper/Disable_Youtube_autoplay
+- https://openuserjs.org/scripts/adisib/Youtube_HD
