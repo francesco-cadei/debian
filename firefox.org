@@ -1,14 +1,10 @@
 * add-ons
-- Bitwarden
-- CanvasBlocker
-- ClearURLs
+- uBlock Origin, I still don't care about cookies
 - CoockieAutoDelete
-- Decentraleyes
-- DF YouTube
-- I still don't care about cookies
-- Return YouTube Dislike
+- Decentraleyes, CanvasBlocker, ClearURLs
+- Bitwarden
 - Simple Translate
-- uBlock Origin
+- DF YouTube, Return YouTube Dislike
 - Video Speed Controller
 
 ** Violentmonkey
