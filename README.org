@@ -96,5 +96,3 @@ sudo systemctl enable powertop.service
 ** js
 - nodejs, npm
 
-** hs
-- ghc
