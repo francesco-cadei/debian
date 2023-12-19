@@ -5,7 +5,6 @@
 - Bitwarden
 - Simple Translate
 - DF YouTube, Return YouTube Dislike
-- Video Speed Controller
 
 ** Violentmonkey
 - https://openuserjs.org/scripts/thomper/Disable_Youtube_autoplay
