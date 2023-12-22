@@ -16,7 +16,7 @@
 - transmission, foliate
 - acpi-call-dkms, thinkfan, tp-smapi-dkms
 - tlp, tlp-rdw, powertop
-- pdfgrep
+- pdfgrep, libreoffice, libreoffice-gnome
 
 * setups
 - gnome-autologin
