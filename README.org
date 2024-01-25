@@ -92,8 +92,8 @@ sudo systemctl enable powertop.service
 - cmake, clang
 
 ** java
-- openjdk-17-jdk
-- openjdk-17-doc
+- default-jdk
+- default-jdk-doc
 
 ** js
 - nodejs, npm
