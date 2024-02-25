@@ -1,11 +1,7 @@
 * add-ons
-- uBlock Origin, I still don't care about cookies
+- uBlock Origin
 - CoockieAutoDelete
 - Decentraleyes, CanvasBlocker, ClearURLs
 - Bitwarden
 - Simple Translate
-- DF YouTube, Return YouTube Dislike
-
-** Violentmonkey
-- https://openuserjs.org/scripts/thomper/Disable_Youtube_autoplay
-- https://openuserjs.org/scripts/adisib/Youtube_HD
+- DF YouTube, Video Resumer
