@@ -4,4 +4,4 @@
 - Decentraleyes, CanvasBlocker, ClearURLs
 - Bitwarden
 - Simple Translate
-- DF YouTube, Video Resumer
+- Unhook
