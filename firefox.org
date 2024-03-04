@@ -1,7 +1,0 @@
-* add-ons
-- uBlock Origin
-- CoockieAutoDelete
-- Decentraleyes, CanvasBlocker, ClearURLs
-- Bitwarden
-- Simple Translate
-- Unhook

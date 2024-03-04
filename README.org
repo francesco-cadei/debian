@@ -12,7 +12,8 @@
 - seahorse, gnome-disk-utility
 - nautilus, eog, mpv, syncthing
 - firefox-esr, privoxy, tor
-- emacs, git, hunspell-en-us, hunspell-it, xdg-utils
+- emacs, git, hunspell-en-us, hunspell-it
+- libtool-bin, libvterm-dev
 - transmission, foliate
 - acpi-call-dkms, thinkfan, tp-smapi-dkms
 - tlp, tlp-rdw, powertop
@@ -55,6 +56,14 @@ systemctl --user enable syncthing.service
 - set =media.peerconnection.enabled= to false
 - set =media.navigator.enabled= to false
 
+*** add-ons
+- uBlock Origin
+- CoockieAutoDelete
+- Decentraleyes, CanvasBlocker, ClearURLs
+- Bitwarden
+- Simple Translate
+- Unhook
+
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
 gnome network proxy settings setup
@@ -86,15 +95,18 @@ sudo systemctl enable powertop.service
 * languages
 
 ** tex
-- texlive-full
+- texlive
+- texlive-pictures
+- texlive-publisher
+- texlive-pictures
+- dvipng
 
 ** c
-- cmake, clang
+- cmake
+- clang
+- libclang-dev
 
 ** java
 - openjdk-17-jdk
 - openjdk-17-source
-
-** js
-- nodejs, npm
 
