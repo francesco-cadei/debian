@@ -60,7 +60,7 @@ systemctl --user enable syncthing.service
 - CoockieAutoDelete
 - uBlock Origin, ClearURLs
 - Bitwarden
-- Simple Translate
+- Simple Translate, simple-maximize-windows-on-start-up, Unhook
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
