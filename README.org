@@ -48,7 +48,7 @@ systemctl --user enable syncthing.service
 #+end_example
 
 ** firefox about:config
-- set =privacy.resistFingerprinting= to false
+- set =privacy.resistFingerprinting= to true
 - set =network.security.esni.enabled= to true
 - set =extensions.screenshots.disabled= to true
 
@@ -57,12 +57,10 @@ systemctl --user enable syncthing.service
 - set =media.navigator.enabled= to false
 
 *** add-ons
-- uBlock Origin
 - CoockieAutoDelete
-- Decentraleyes, CanvasBlocker, ClearURLs
+- uBlock Origin, ClearURLs
 - Bitwarden
 - Simple Translate
-- Unhook
 
 ** privoxy-tor
 edit =/etc/privoxy/config= to have =forward-socks5t=
